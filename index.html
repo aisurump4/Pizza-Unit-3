@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nick Millan">
+    <title>Pizza Project</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>User Information</legend>
+            <ul>
+                <li><label for="User">User Name</label>
+                <input text="type" id="User" name="user.User"></li>
+
+                <li><label for="PW">Password</label>
+                <input type="password" id="PW" name="user.password"></li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>What drink do you want?</legend>
+            <ul>
+                <li><input type="radio" id="drink.diet" name="user.drink">Diet Coke</li>
+                <li><input type="radio" id="drink.coke" name="user.drink">Coke</li>
+                <li><input type="radio" id="drink.sprite" name="user.drink">Sprite</li>
+                <li><input type="radio" id="drink.water" name="user.drink">Water</li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pizza Preference</legend>
+            <input type="checkbox" id="pizza.pepperoni" name="pizza" value="Pepperonis">
+            <label for="pizza.pepperoni">Pepperoni</label><br>
+            <input type="checkbox" id=pizza.plain"" name="pizza" value="Plain">
+            <label for="pizza.plain">Plain</label><br>
+            <input type="checkbox" id="pizza.chicken" name="pizza" value="Chicken">
+            <label for="pizza.chicken">Chicken</label><br>
+            <input type="checkbox" id="pizza.sausage" name="pizza" value="Sausage">
+            <label for="pizza.sausage">Sausage</label><br>
+            </fieldset>
+        <fieldset>
+            <li><label for="commenst">Special Instructions</label><br>
+            <textarea name="user.instructions" id="comment" cols="30" rows="10"></textarea><br>
+            <button type="submit">Submit</button></li>
+        </fieldset>
+    </form>
+</body>
+</html>
